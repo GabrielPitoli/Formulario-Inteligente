@@ -1,4 +1,4 @@
-# 📝 Intelligent Form with Dynamic Validation | Formulário Inteligente com Validação Dinâmica
+# 📝 Intelligent Form with Dynamic Validation 
 
 
 
