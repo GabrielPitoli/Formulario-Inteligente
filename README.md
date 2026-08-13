@@ -1,6 +1,6 @@
 # 📝 Intelligent Form with Dynamic Validation | Formulário Inteligente com Validação Dinâmica
 
-> 🌐 **Language / Idioma:** [English](#english) | [Português](#português)
+
 
 ---
 
