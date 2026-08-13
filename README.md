@@ -4,9 +4,6 @@
 
 ---
 
-<a name="english"></a>
-## 🇺🇸 English Version
-
 > **An interactive registration form built with Vanilla JS featuring real-time validations, accessibility feedback (ARIA), and a password strength analyzer.**
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](#)
