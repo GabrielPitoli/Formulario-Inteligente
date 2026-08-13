@@ -45,6 +45,7 @@ cd Formulario-Inteligente
 Open index.html directly in your web browser or use the Live Server extension in VS Code.
 
 👥 Authors
+
 Gabriel Pitoli Bueno — RA: 25001076
 
 Rafael Pagani Palma — RA: 25000880
