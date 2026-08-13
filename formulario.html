@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formulário Inteligente</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <form id="cadastroForm" novalidate>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" maxlength="50" />
+    <div id="espelhoNome"></div>
+    <div id="contadorNome">0/50</div>
+
+    <label for="estado">Estado:</label>
+    <select id="estado">
+      <option value="">Selecione</option>
+      <option value="SP">São Paulo</option>
+      <option value="RJ">Rio de Janeiro</option>
+    </select>
+
+    <label for="cidade">Cidade:</label>
+    <select id="cidade" disabled>
+      <option value="">Selecione</option>
+    </select>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" aria-describedby="emailFeedback" />
+    <div id="emailFeedback" role="alert"></div>
+
+    <label for="curso">Curso:</label>
+    <select id="curso">
+      <option value="">Selecione</option>
+      <option value="frontend">Frontend</option>
+      <option value="backend">Backend</option>
+    </select>
+
+    <label>
+      <input type="checkbox" id="termos" />
+      Aceito os termos
+    </label>
+
+    <label for="senha">Senha:</label>
+    <input type="password" id="senha" />
+    <div id="forcaSenha" role="status"></div>
+
+    <ul id="erros" aria-live="polite"></ul>
+
+    <button type="submit" id="enviar" disabled>Enviar</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
